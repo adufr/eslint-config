@@ -1,6 +1,6 @@
 {
   "name": "@adufr/eslint-config",
-  "version": "5.1.1",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.3.0",
   "description": "ESLint config for @adufr.",
   "type": "module",
