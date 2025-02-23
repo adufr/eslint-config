@@ -17,6 +17,7 @@ export const yml = (): Config[] => [
       ...(pluginYml.configs.standard.rules as Rules),
       ...(pluginYml.configs.prettier.rules as Rules),
       'yml/no-empty-mapping-value': 'off',
+      'yml/sort-keys': 'off',
     },
   },
 ]
