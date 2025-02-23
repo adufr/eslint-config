@@ -3,7 +3,7 @@
 A opinionated ESLint config preset for JavaScript, TypeScript, Vue 2 or Vue 3,
 and Prettier.
 
-Forked from [@sxzz](https://github.com/sxzz/eslint-config)
+Forked from @sxzz's [eslint-config](https://github.com/sxzz/eslint-config)
 
 ## Features
 
@@ -66,14 +66,6 @@ export default presetAll
 
 See [preset.ts](./src/presets.ts) for more details.
 
-## Comparing to [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
-
-Most of the rules are the same, but there are some differences:
-
-- Use [Prettier](https://prettier.io/) instead of [ESLint Stylistic](https://github.com/eslint-stylistic/eslint-stylistic).
-- React and Svelte are not supported.
-- Maybe stricter and simpler.
-
 ## License
 
-[MIT](./LICENSE) License © 2025-PRESENT [三咲智子](https://github.com/adufr)
+[MIT](./LICENSE) License © 2025-PRESENT [Arthur Dufour](https://github.com/adufr)
