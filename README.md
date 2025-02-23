@@ -18,11 +18,19 @@ Forked from @sxzz's [eslint-config](https://github.com/sxzz/eslint-config)
 
 ## Install
 
+Require Node.js >= 18.18, and ESLint >= 9.5.0.
+
+From NPM:
+
 ```bash
 npm i -D @adufr/eslint-config
 ```
 
-Require Node.js >= 18.18, and ESLint >= 9.5.0.
+From JSR:
+
+```bash
+npx jsr add @adufr/eslint-config
+```
 
 ## Usage
 
