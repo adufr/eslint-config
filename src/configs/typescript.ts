@@ -7,7 +7,7 @@ import { restrictedSyntaxJs } from './javascript'
 export const typescriptCore = tseslint.config({
   extends: [...tseslint.configs.recommended],
   files: [GLOB_TS, GLOB_TSX],
-  name: 'sxzz/typescript',
+  name: 'adufr/typescript',
   rules: {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/consistent-type-assertions': [
@@ -59,7 +59,7 @@ export const typescript = (): Config[] => [
 
   {
     files: ['**/*.d.ts'],
-    name: 'sxzz/typescript/dts-rules',
+    name: 'adufr/typescript/dts-rules',
     rules: {
       'eslint-comments/no-unlimited-disable': 'off',
       'import/no-duplicates': 'off',
@@ -69,7 +69,7 @@ export const typescript = (): Config[] => [
   },
   {
     files: [GLOB_JS, '**/*.cjs'],
-    name: 'sxzz/typescript/cjs-rules',
+    name: 'adufr/typescript/cjs-rules',
     rules: {
       '@typescript-eslint/no-require-imports': 'off',
     },

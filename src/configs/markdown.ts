@@ -5,12 +5,12 @@ import type { Config } from '../types'
 export const markdown = (): Config[] => [
   ...pluginMarkdown.configs.processor.map((config: Config) => ({
     ...config,
-    name: `sxzz/${config.name || 'anonymous'}`,
+    name: `adufr/${config.name || 'anonymous'}`,
   })),
 
   {
     files: [`${GLOB_MARKDOWN}/${GLOB_SRC}`, `${GLOB_MARKDOWN}/${GLOB_VUE}`],
-    name: 'sxzz/markdown-rules',
+    name: 'adufr/markdown-rules',
     rules: {
       '@typescript-eslint/comma-dangle': 'off',
       '@typescript-eslint/consistent-type-imports': 'off',

@@ -5,7 +5,7 @@ import type { Config } from '../types'
 export const sortPackageJson = (): Config[] => [
   {
     files: ['**/package.json'],
-    name: 'sxzz/sort/package.json',
+    name: 'adufr/sort/package.json',
     rules: {
       'jsonc/sort-array-values': [
         'error',
@@ -83,7 +83,7 @@ export const sortPackageJson = (): Config[] => [
 export const sortTsconfig = (): Config[] => [
   {
     files: ['**/tsconfig.json', '**/tsconfig.*.json'],
-    name: 'sxzz/sort/tsconfig',
+    name: 'adufr/sort/tsconfig',
     rules: {
       'jsonc/sort-keys': [
         'error',
@@ -207,7 +207,7 @@ export const sortTsconfig = (): Config[] => [
 
 export const sortImports = (): Config[] => [
   {
-    name: 'sxzz/sort/imports',
+    name: 'adufr/sort/imports',
     plugins: {
       perfectionist: pluginPerfectionist,
     },

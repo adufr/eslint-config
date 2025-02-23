@@ -3,7 +3,7 @@ import type { Config } from '../types'
 
 export const node = (): Config[] => [
   {
-    name: 'sxzz/node',
+    name: 'adufr/node',
     plugins: {
       node: pluginNode,
     },

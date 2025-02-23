@@ -3,7 +3,7 @@ import type { Config } from '../types'
 
 export const jsdoc = (): Config[] => [
   {
-    name: 'sxzz/jsdoc',
+    name: 'adufr/jsdoc',
     plugins: {
       jsdoc: pluginJsdoc,
     },

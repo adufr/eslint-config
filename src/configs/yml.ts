@@ -9,7 +9,7 @@ export const yml = (): Config[] => [
     languageOptions: {
       parser: parserYml,
     },
-    name: 'sxzz/yaml',
+    name: 'adufr/yaml',
     plugins: {
       yml: pluginYml as any,
     },

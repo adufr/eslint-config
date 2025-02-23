@@ -1,20 +1,19 @@
 {
-  "name": "@sxzz/eslint-config",
+  "name": "@adufr/eslint-config",
   "version": "5.1.1",
   "packageManager": "pnpm@10.3.0",
-  "description": "ESLint config for @sxzz.",
+  "description": "ESLint config for @adufr.",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/sxzz/eslint-config#readme",
+  "homepage": "https://github.com/adufr/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/sxzz/eslint-config/issues"
+    "url": "https://github.com/adufr/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sxzz/eslint-config.git"
+    "url": "git+https://github.com/adufr/eslint-config.git"
   },
-  "author": "三咲智子 Kevin Deng <sxzz@sxzz.moe>",
-  "funding": "https://github.com/sponsors/sxzz",
+  "author": "Arthur Dufour <dufourarthur.perso@gmail.com>",
   "files": [
     "dist"
   ],
@@ -52,6 +51,7 @@
     "@eslint-community/eslint-plugin-eslint-comments": "^4.4.1",
     "@eslint/js": "^9.20.0",
     "@eslint/markdown": "^6.2.2",
+    "eslint-config": "link:../.local/share/pnpm/global/5/node_modules/@adufr/eslint-config",
     "eslint-config-flat-gitignore": "^2.0.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-antfu": "^3.0.0",
@@ -96,7 +96,8 @@
   },
   "pnpm": {
     "overrides": {
-      "is-core-module": "npm:@no-shims/is-core-module"
+      "is-core-module": "npm:@no-shims/is-core-module",
+      "eslint-config": "link:../.local/share/pnpm/global/5/node_modules/@adufr/eslint-config"
     }
   },
   "prettier": "@sxzz/prettier-config"

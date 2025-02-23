@@ -3,7 +3,7 @@ import type { Config } from '../types'
 
 export const unicorn = (): Config[] => [
   {
-    name: 'sxzz/unicorn',
+    name: 'adufr/unicorn',
     plugins: {
       unicorn: pluginUnicorn,
     },

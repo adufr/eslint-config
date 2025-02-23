@@ -10,7 +10,7 @@ export const restrictedSyntaxJs: string[] = [
 ]
 
 export const javascript = (): Config[] => [
-  { ...configJs.configs.recommended, name: 'sxzz/js/recommended' },
+  { ...configJs.configs.recommended, name: 'adufr/js/recommended' },
   {
     languageOptions: {
       globals: {
@@ -26,7 +26,7 @@ export const javascript = (): Config[] => [
       },
       sourceType: 'module',
     },
-    name: 'sxzz/js',
+    name: 'adufr/js',
     plugins: {
       sxzz: pluginSxzz,
       'unused-imports': pluginUnusedImports,
@@ -78,7 +78,7 @@ export const javascript = (): Config[] => [
       'prefer-spread': 'error',
       'prefer-template': 'error',
       'require-await': 'error',
-      'sxzz/prefer-string-function': 'warn',
+      'adufr/prefer-string-function': 'warn',
       'unicode-bom': ['error', 'never'],
       'unused-imports/no-unused-imports': isInEditorEnv() ? 'off' : 'error',
       'unused-imports/no-unused-vars': [

@@ -1,6 +1,6 @@
-import { sxzz } from './src/index.ts'
+import { adufr } from './src/index.ts'
 
-export default sxzz([], {
+export default adufr([], {
   vue: true,
   unocss: true,
 })

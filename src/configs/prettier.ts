@@ -10,7 +10,7 @@ delete prettierConflictRules['vue/html-self-closing']
 
 export const prettier = (): Config[] => [
   {
-    name: 'sxzz/prettier',
+    name: 'adufr/prettier',
     plugins: {
       prettier: pluginPrettier,
     },

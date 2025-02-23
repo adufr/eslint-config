@@ -1,7 +1,9 @@
-# @sxzz/eslint-config [![npm](https://img.shields.io/npm/v/@sxzz/eslint-config.svg)](https://npmjs.com/package/@sxzz/eslint-config)
+# @adufr/eslint-config [![npm](https://img.shields.io/npm/v/@adufr/eslint-config.svg)](https://npmjs.com/package/@adufr/eslint-config)
 
 A opinionated ESLint config preset for JavaScript, TypeScript, Vue 2 or Vue 3,
 and Prettier.
+
+Forked from [@sxzz](https://github.com/sxzz/eslint-config)
 
 ## Features
 
@@ -17,7 +19,7 @@ and Prettier.
 ## Install
 
 ```bash
-npm i -D @sxzz/eslint-config
+npm i -D @adufr/eslint-config
 ```
 
 Require Node.js >= 18.18, and ESLint >= 9.5.0.
@@ -25,8 +27,8 @@ Require Node.js >= 18.18, and ESLint >= 9.5.0.
 ## Usage
 
 ```js
-import { sxzz } from '@sxzz/eslint-config'
-export default sxzz(
+import { adufr } from '@adufr/eslint-config'
+export default adufr(
   [
     /* your custom config */
   ],
@@ -57,7 +59,7 @@ import {
   // - UnoCSS support (`uno.config.ts` is required)
   // - Prettier support
   presetAll,
-} from '@sxzz/eslint-config'
+} from '@adufr/eslint-config'
 
 export default presetAll
 ```
@@ -72,14 +74,6 @@ Most of the rules are the same, but there are some differences:
 - React and Svelte are not supported.
 - Maybe stricter and simpler.
 
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg'/>
-  </a>
-</p>
-
 ## License
 
-[MIT](./LICENSE) License © 2021-PRESENT [三咲智子](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2025-PRESENT [三咲智子](https://github.com/adufr)

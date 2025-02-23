@@ -1,7 +1,7 @@
-// import { sxzz } from './dist/index.js'
-import { sxzz } from './src/index'
+// import { adufr} from './dist/index.js'
+import { adufr } from './src/index'
 
-export default sxzz(
+export default adufr(
   [
     {
       files: ['src/**/*.ts'],

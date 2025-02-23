@@ -5,10 +5,10 @@ import type { Config } from '../types'
 export const ignores = (): Config[] => [
   {
     ignores: GLOB_EXCLUDE,
-    name: 'sxzz/global-ignores',
+    name: 'adufr/global-ignores',
   },
   {
     ...pluginIgnore({ strict: false }),
-    name: 'sxzz/gitignore',
+    name: 'adufr/gitignore',
   },
 ]

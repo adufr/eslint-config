@@ -3,7 +3,7 @@ import type { Config } from '../types'
 
 export const imports = (): Config[] => [
   {
-    name: 'sxzz/imports',
+    name: 'adufr/imports',
     plugins: {
       antfu: pluginAntfu,
       import: pluginImport as any,

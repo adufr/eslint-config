@@ -70,8 +70,8 @@ export const presetAll = async (): Promise<Config[]> => [
   ...prettier(),
 ]
 
-/** `@sxzz`'s preset. */
-export async function sxzz(
+/** `@adufr`'s preset. */
+export async function adufr(
   config: Config | Config[] = [],
   {
     command: enableCommand = true,

@@ -4,10 +4,10 @@ import type { Config } from '../types'
 export const comments = (): Config[] => [
   {
     ...configComments.recommended,
-    name: 'sxzz/comments/recommended',
+    name: 'adufr/comments/recommended',
   },
   {
-    name: 'sxzz/comments',
+    name: 'adufr/comments',
     rules: {
       '@eslint-community/eslint-comments/disable-enable-pair': [
         'error',

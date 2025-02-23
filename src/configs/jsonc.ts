@@ -9,7 +9,7 @@ export const jsonc = (): Config[] => [
     languageOptions: {
       parser: parserJsonc,
     },
-    name: 'sxzz/json',
+    name: 'adufr/json',
     plugins: {
       jsonc: pluginJsonc as any,
     },

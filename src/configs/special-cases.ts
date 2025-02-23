@@ -5,14 +5,14 @@ import type { Config } from '../types'
 export const specialCases = (): Config[] => [
   {
     files: ['**/scripts/*', '**/cli.*'],
-    name: 'sxzz/special/cli',
+    name: 'adufr/special/cli',
     rules: {
       'no-console': 'off',
     },
   },
   {
     files: [`**/*.{test,spec}.${GLOB_SRC_EXT}`],
-    name: 'sxzz/special/tests',
+    name: 'adufr/special/tests',
     rules: {
       'no-unused-expressions': 'off',
       'unicorn/consistent-function-scoping': 'off',
@@ -27,7 +27,7 @@ export const specialCases = (): Config[] => [
       `${GLOB_MARKDOWN}/**`,
       '**/.prettierrc*',
     ],
-    name: 'sxzz/special/allow-default-export',
+    name: 'adufr/special/allow-default-export',
     plugins: {
       import: pluginImport as any,
     },

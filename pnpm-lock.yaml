@@ -6,6 +6,7 @@ settings:
 
 overrides:
   is-core-module: npm:@no-shims/is-core-module
+  eslint-config: link:../.local/share/pnpm/global/5/node_modules/@adufr/eslint-config
 
 importers:
 
@@ -20,6 +21,9 @@ importers:
       '@eslint/markdown':
         specifier: ^6.2.2
         version: 6.2.2
+      eslint-config:
+        specifier: link:../.local/share/pnpm/global/5/node_modules/@adufr/eslint-config
+        version: link:../.local/share/pnpm/global/5/node_modules/@adufr/eslint-config
       eslint-config-flat-gitignore:
         specifier: ^2.0.0
         version: 2.0.0(eslint@9.20.1(jiti@2.4.2))

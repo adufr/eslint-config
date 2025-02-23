@@ -4,6 +4,6 @@ import type { Config } from '../types'
 export const regexp = (): Config[] => [
   {
     ...(configs['flat/recommended'] as Config),
-    name: 'sxzz/regexp',
+    name: 'adufr/regexp',
   },
 ]

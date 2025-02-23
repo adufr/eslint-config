@@ -33,7 +33,7 @@ export const reactivityTransform = (): Config[] => [
         $toRef: 'readonly',
       },
     },
-    name: 'sxzz/vue/reactivity-transform',
+    name: 'adufr/vue/reactivity-transform',
     plugins: {
       vue: pluginVue,
     },
@@ -107,7 +107,7 @@ const vueTs: Config[] = typescriptCore
     return {
       ...config,
       files: [GLOB_VUE],
-      name: `sxzz/vue/${config.name?.replace('sxzz/', '') || 'anonymous'}`,
+      name: `adufr/vue/${config.name?.replace('adufr/', '') || 'anonymous'}`,
     }
   })
 
@@ -126,7 +126,7 @@ export const vue = (): Config[] => [
         sourceType: 'module',
       },
     },
-    name: 'sxzz/vue',
+    name: 'adufr/vue',
     plugins: {
       '@typescript-eslint': tseslint.plugin as ESLint.Plugin,
       vue: pluginVue,
