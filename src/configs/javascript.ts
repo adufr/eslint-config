@@ -78,7 +78,7 @@ export const javascript = (): Config[] => [
       'prefer-spread': 'error',
       'prefer-template': 'error',
       'require-await': 'error',
-      'adufr/prefer-string-function': 'warn',
+      'sxzz/prefer-string-function': 'warn',
       'unicode-bom': ['error', 'never'],
       'unused-imports/no-unused-imports': isInEditorEnv() ? 'off' : 'error',
       'unused-imports/no-unused-vars': [
