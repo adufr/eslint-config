@@ -98,8 +98,8 @@
   },
   "pnpm": {
     "overrides": {
-      "is-core-module": "npm:@no-shims/is-core-module",
-      "eslint-config": "link:../.local/share/pnpm/global/5/node_modules/@adufr/eslint-config"
+      "eslint-config": "link:../.local/share/pnpm/global/5/node_modules/@adufr/eslint-config",
+      "is-core-module": "npm:@no-shims/is-core-module"
     }
   },
   "prettier": "@sxzz/prettier-config"

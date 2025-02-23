@@ -55,11 +55,6 @@ export default adufr(
 ```js
 // eslint.config.js
 import {
-  presetJavaScript, // Ignore common files and include javascript support
-  presetJsonc, // Includes basic json(c) file support and sorting json keys
-  presetLangsExtensions, // Includes markdown, yaml + `presetJsonc` support
-  presetBasic, // Includes `presetJavaScript` and typescript support
-
   // Includes
   // - `presetBasic` (JS+TS) support
   // - `presetLangsExtensions` (markdown, yaml, jsonc) support
@@ -67,6 +62,10 @@ import {
   // - UnoCSS support (`uno.config.ts` is required)
   // - Prettier support
   presetAll,
+  presetBasic, // Includes `presetJavaScript` and typescript support
+  presetJavaScript, // Ignore common files and include javascript support
+  presetJsonc, // Includes basic json(c) file support and sorting json keys
+  presetLangsExtensions, // Includes markdown, yaml + `presetJsonc` support
 } from '@adufr/eslint-config'
 
 export default presetAll
