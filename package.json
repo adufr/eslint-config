@@ -36,7 +36,7 @@
     "lint:fix": "pnpm run lint --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "release": "bumpp && pnpm publish && npx jsr publish",
+    "release": "bumpp && pnpm publish",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run build"
   },
