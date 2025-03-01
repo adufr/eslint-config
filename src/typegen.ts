@@ -1,4 +1,3 @@
-/* eslint-disable */
 /* prettier-ignore */
 import type { Linter } from 'eslint'
 

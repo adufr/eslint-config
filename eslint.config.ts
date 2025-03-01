@@ -1,6 +1,13 @@
 import { adufr } from './src/index'
 
-export default adufr([], {
-  prettier: true,
-  markdown: true,
-})
+export default adufr(
+  [
+    {
+      ignores: ['src/typegen.ts'],
+    },
+  ],
+  {
+    prettier: true,
+    markdown: true,
+  },
+)
