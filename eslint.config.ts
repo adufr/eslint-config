@@ -5,6 +5,9 @@ export default adufr({
   pnpm: true,
 }).append(
   {
+    ignores: ['src/typegen.ts'],
+  },
+  {
     files: ['src/**/*.ts'],
     rules: {
       'perfectionist/sort-objects': 'error',
