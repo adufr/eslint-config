@@ -1,13 +1,20 @@
 import { adufr } from './src/index'
 
-export default adufr(
-  [
-    {
-      ignores: ['src/typegen.ts'],
-    },
-  ],
+export default adufr({
+  vue: true,
+  pnpm: true,
+}).append(
   {
-    prettier: true,
-    markdown: true,
+    files: ['src/**/*.ts'],
+    rules: {
+      'perfectionist/sort-objects': 'error',
+    },
+  },
+  {
+    files: ['**/*.md/*'],
+    rules: {
+      'perfectionist/sort-imports': 'off',
+      'perfectionist/sort-named-imports': 'off',
+    },
   },
 )

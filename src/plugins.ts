@@ -14,6 +14,7 @@ export { default as pluginUnusedImports } from 'eslint-plugin-unused-imports'
 export { default as pluginJsdoc } from 'eslint-plugin-jsdoc'
 export { default as pluginIgnore } from 'eslint-config-flat-gitignore'
 export { default as pluginDeMorgan } from 'eslint-plugin-de-morgan'
+export { default as pluginPnpm } from 'eslint-plugin-pnpm'
 
 export * as pluginImport from 'eslint-plugin-import-x'
 export * as pluginJsonc from 'eslint-plugin-jsonc'
@@ -21,7 +22,6 @@ export * as pluginYml from 'eslint-plugin-yml'
 
 export { default as configJs } from '@eslint/js'
 export { default as configComments } from '@eslint-community/eslint-plugin-eslint-comments/configs'
-export { default as configPrettier } from 'eslint-config-prettier'
 export { default as configCommand } from 'eslint-plugin-command/config'
 
 export * as parserVue from 'vue-eslint-parser'

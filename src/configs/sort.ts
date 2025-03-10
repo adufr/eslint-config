@@ -205,6 +205,56 @@ export const sortTsconfig = (): Config[] => [
   },
 ]
 
+export const sortPnpmWorkspace = (): Config[] => [
+  {
+    files: ['**/pnpm-workspace.yaml'],
+    name: 'sxzz/sort/pnpm-workspace',
+    rules: {
+      'yml/sort-keys': [
+        'error',
+        {
+          order: [
+            'packages',
+            'overrides',
+            'patchedDependencies',
+            'hoistPattern',
+            'defines',
+            'catalog',
+            'catalogs',
+
+            'allowedDeprecatedVersions',
+            'allowNonAppliedPatches',
+            'configDependencies',
+            'ignoredBuiltDependencies',
+            'ignoredOptionalDependencies',
+            'neverBuiltDependencies',
+            'onlyBuiltDependencies',
+            'onlyBuiltDependenciesFile',
+            'packageExtensions',
+            'peerDependencyRules',
+            'supportedArchitectures',
+          ],
+          pathPattern: '^$',
+        },
+        {
+          allowLineSeparatedGroups: true,
+          order: { type: 'asc' },
+          pathPattern: '^catalog$',
+        },
+        {
+          order: { type: 'asc' },
+          pathPattern: `^catalogs$`,
+        },
+        {
+          allowLineSeparatedGroups: true,
+          order: { type: 'asc' },
+          pathPattern: String.raw`^catalogs\..+$`,
+        },
+      ],
+    },
+  },
+]
+
 export const sortImports = (): Config[] => [
   {
     name: 'adufr/sort/imports',

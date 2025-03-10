@@ -1,6 +1,6 @@
 # @adufr/eslint-config [![npm](https://img.shields.io/npm/v/@adufr/eslint-config.svg)](https://npmjs.com/package/@adufr/eslint-config)
 
-A opinionated ESLint config preset for JavaScript, TypeScript, Vue 2 or Vue 3,
+A opinionated ESLint config preset for JavaScript, TypeScript, Vue,
 and Prettier.
 
 Forked from @sxzz's [eslint-config](https://github.com/sxzz/eslint-config)
@@ -8,7 +8,7 @@ Forked from @sxzz's [eslint-config](https://github.com/sxzz/eslint-config)
 ## Features
 
 - Format with Prettier.
-- Designed to work with TypeScript, Vue 2 and 3 out-of-box.
+- Designed to work with TypeScript, Vue out-of-box.
 - Support JSON(5), YAML, Markdown...
 - Sort imports, `package.json`, `tsconfig.json`...
 - [ESLint Flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new), compose easily!
@@ -29,9 +29,6 @@ npm i -D @adufr/eslint-config
 ```js
 import { adufr } from '@adufr/eslint-config'
 export default adufr(
-  [
-    /* your custom config */
-  ],
   // Features: it'll detect installed dependency and enable necessary features automatically
   {
     prettier: true,
@@ -39,7 +36,10 @@ export default adufr(
     vue: true, // auto detection
     unocss: false, // auto detection
   },
-)
+  [
+    /* your custom config */
+  ],
+).removeRules('foo/bar') // see more in https://github.com/antfu/eslint-flat-config-utils
 ```
 
 ### Presets
