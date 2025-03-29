@@ -19,9 +19,9 @@ import { adufr } from '@adufr/eslint-config'
 export default adufr(
   // Options (same as @sxzz/eslint-config)
   {
-    prettier: true,  // Auto-detected if not specified
-    vue: true,       // Auto-detected if not specified
-    unocss: false,   // Auto-detected if not specified
+    prettier: true, // Auto-detected if not specified
+    vue: true, // Auto-detected if not specified
+    unocss: false, // Auto-detected if not specified
     markdown: true,
   },
   [
