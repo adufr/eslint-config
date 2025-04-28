@@ -1,7 +1,7 @@
 {
   "name": "@adufr/eslint-config",
   "version": "2.0.0",
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "pnpm@10.10.0",
   "description": "ESLint config for @adufr.",
   "type": "module",
   "license": "MIT",
@@ -53,7 +53,7 @@
     "eslint": "^9.25.1",
     "eslint-flat-config-utils": "^2.0.1",
     "prettier": "^3.5.3",
-    "tsdown": "^0.9.6",
+    "tsdown": "^0.9.9",
     "tsx": "^4.19.3"
   },
   "engines": {
