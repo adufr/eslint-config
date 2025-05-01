@@ -43,19 +43,19 @@
     "eslint": "^9.5.0"
   },
   "dependencies": {
-    "@sxzz/eslint-config": "^6.1.2"
+    "@sxzz/eslint-config": "^6.2.0"
   },
   "devDependencies": {
     "@adufr/prettier-config": "^0.0.4",
     "@eslint/config-inspector": "^1.0.2",
     "@intlify/eslint-plugin-vue-i18n": "^4.0.1",
-    "@types/node": "^22.15.2",
+    "@types/node": "^22.15.3",
     "bumpp": "^10.1.0",
     "eslint": "^9.25.1",
     "eslint-flat-config-utils": "^2.0.1",
     "prettier": "^3.5.3",
-    "tsdown": "^0.9.9",
-    "tsx": "^4.19.3"
+    "tsdown": "^0.10.2",
+    "tsx": "^4.19.4"
   },
   "engines": {
     "node": "^18.18.0 || >=20.0.0"
