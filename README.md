@@ -44,6 +44,7 @@ This package provides all the same features as [@sxzz/eslint-config](https://git
 For detailed configuration options, please refer to the [@sxzz/eslint-config documentation](https://github.com/sxzz/eslint-config).
 
 Additional features:
+
 - Vue I18n support via [@intlify/eslint-plugin-vue-i18n](https://github.com/intlify/eslint-plugin-vue-i18n)
 
 ## License
