@@ -17,12 +17,12 @@ Create an `eslint.config.ts` file in your project root:
 import { adufr } from '@adufr/eslint-config'
 
 export default adufr(
-  // Options (same as @sxzz/eslint-config)
   {
     prettier: true, // Auto-detected if not specified
     vue: true, // Auto-detected if not specified
     unocss: false, // Auto-detected if not specified
     markdown: true,
+    vueI18n: false, // Enable Vue I18n support
   },
   [
     // Your custom overrides (optional)
@@ -42,6 +42,9 @@ This package provides all the same features as [@sxzz/eslint-config](https://git
 - Opinionated but configurable defaults
 
 For detailed configuration options, please refer to the [@sxzz/eslint-config documentation](https://github.com/sxzz/eslint-config).
+
+Additional features:
+- Vue I18n support via [@intlify/eslint-plugin-vue-i18n](https://github.com/intlify/eslint-plugin-vue-i18n)
 
 ## License
 
