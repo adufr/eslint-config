@@ -5,7 +5,10 @@ export default adufr(
     markdown: true,
     prettier: true,
     sortKeys: true,
-    unocss: false,
+    unocss: true,
+    vueI18n: true,
+    pnpm: true,
+    vue: true,
   },
   [],
 )
