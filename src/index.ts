@@ -50,9 +50,9 @@ export function adufr(
       {
         files: ['i18n/locales/*.yaml'],
         rules: {
-          'yml/sort-keys': 'error'
-        }
-      }
+          'yml/sort-keys': 'error',
+        },
+      },
     )
   }
 
