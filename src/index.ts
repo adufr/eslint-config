@@ -1,7 +1,10 @@
-import vueI18n from '@intlify/eslint-plugin-vue-i18n'
+import { createRequire } from 'node:module'
+
 import { sxzz, type Options as SxzzOptions } from '@sxzz/eslint-config'
 import type { Linter } from 'eslint'
 import type { FlatConfigComposer } from 'eslint-flat-config-utils'
+const require = createRequire(import.meta.url)
+const vueI18n = require('@intlify/eslint-plugin-vue-i18n')
 
 /**
  * Extended options interface with i18n support
