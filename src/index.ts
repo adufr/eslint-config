@@ -47,6 +47,12 @@ export function adufr(
           '@intlify/vue-i18n/no-missing-keys': 'error',
         },
       },
+      {
+        files: ['i18n/locales/*.yaml'],
+        rules: {
+          'yml/sort-keys': 'error',
+        },
+      },
     )
   }
 
