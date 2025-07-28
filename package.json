@@ -51,7 +51,7 @@
     "@intlify/eslint-plugin-vue-i18n": "^4.0.1",
     "@types/node": "^22.16.5",
     "bumpp": "^10.2.0",
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "eslint-flat-config-utils": "^2.1.0",
     "prettier": "^3.6.2",
     "tsdown": "^0.12.9",
