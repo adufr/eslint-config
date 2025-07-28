@@ -43,7 +43,7 @@
     "eslint": "^9.5.0"
   },
   "dependencies": {
-    "@sxzz/eslint-config": "^7.0.6"
+    "@sxzz/eslint-config": "^7.1.0"
   },
   "devDependencies": {
     "@adufr/prettier-config": "^0.0.4",
@@ -54,7 +54,7 @@
     "eslint": "^9.32.0",
     "eslint-flat-config-utils": "^2.1.0",
     "prettier": "^3.6.2",
-    "tsdown": "^0.12.9",
+    "tsdown": "^0.13.0",
     "tsx": "^4.20.3"
   },
   "engines": {
