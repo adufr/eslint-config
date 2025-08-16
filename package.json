@@ -47,15 +47,15 @@
   },
   "devDependencies": {
     "@adufr/prettier-config": "^0.0.4",
-    "@eslint/config-inspector": "^1.1.0",
+    "@eslint/config-inspector": "^1.2.0",
     "@intlify/eslint-plugin-vue-i18n": "^4.1.0",
-    "@types/node": "^22.17.1",
-    "bumpp": "^10.2.2",
+    "@types/node": "^22.17.2",
+    "bumpp": "^10.2.3",
     "eslint": "^9.32.0",
     "eslint-flat-config-utils": "^2.1.1",
     "prettier": "^3.6.2",
-    "tsdown": "^0.14.0",
-    "tsx": "^4.20.3"
+    "tsdown": "^0.14.1",
+    "tsx": "^4.20.4"
   },
   "engines": {
     "node": "^18.18.0 || >=20.0.0"
