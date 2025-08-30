@@ -49,7 +49,7 @@
   "devDependencies": {
     "@adufr/prettier-config": "^0.0.4",
     "@eslint/config-inspector": "^1.2.0",
-    "@types/node": "^22.18.0",
+    "@types/node": "^24.3.0",
     "bumpp": "^10.2.3",
     "eslint": "^9.34.0",
     "eslint-flat-config-utils": "^2.1.1",
