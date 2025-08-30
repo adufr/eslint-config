@@ -49,12 +49,12 @@
     "@adufr/prettier-config": "^0.0.4",
     "@eslint/config-inspector": "^1.2.0",
     "@intlify/eslint-plugin-vue-i18n": "^4.1.0",
-    "@types/node": "^22.17.2",
+    "@types/node": "^22.18.0",
     "bumpp": "^10.2.3",
     "eslint": "^9.34.0",
     "eslint-flat-config-utils": "^2.1.1",
     "prettier": "^3.6.2",
-    "tsdown": "^0.14.1",
+    "tsdown": "^0.14.2",
     "tsx": "^4.20.5"
   },
   "engines": {
