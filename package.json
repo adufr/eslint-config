@@ -43,12 +43,12 @@
     "eslint": "^9.5.0"
   },
   "dependencies": {
+    "@intlify/eslint-plugin-vue-i18n": "^4.1.0",
     "@sxzz/eslint-config": "^7.1.4"
   },
   "devDependencies": {
     "@adufr/prettier-config": "^0.0.4",
     "@eslint/config-inspector": "^1.2.0",
-    "@intlify/eslint-plugin-vue-i18n": "^4.1.0",
     "@types/node": "^22.18.0",
     "bumpp": "^10.2.3",
     "eslint": "^9.34.0",
