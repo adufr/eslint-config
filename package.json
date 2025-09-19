@@ -47,7 +47,7 @@
     "@sxzz/eslint-config": "^7.1.4"
   },
   "devDependencies": {
-    "@adufr/prettier-config": "^0.0.4",
+    "@adufr/prettier-config": "^1.0.1",
     "@eslint/config-inspector": "^1.2.0",
     "@types/node": "^24.5.2",
     "bumpp": "^10.2.3",
