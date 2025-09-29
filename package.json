@@ -1,7 +1,7 @@
 {
   "name": "@adufr/eslint-config",
   "version": "3.0.0",
-  "packageManager": "pnpm@10.17.0",
+  "packageManager": "pnpm@10.17.1",
   "description": "ESLint config for @adufr.",
   "type": "module",
   "license": "MIT",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "^4.1.0",
-    "@sxzz/eslint-config": "^7.1.4"
+    "@sxzz/eslint-config": "^7.2.6"
   },
   "devDependencies": {
     "@adufr/prettier-config": "^1.0.1",
@@ -54,11 +54,11 @@
     "eslint": "^9.36.0",
     "eslint-flat-config-utils": "^2.1.4",
     "prettier": "^3.6.2",
-    "tsdown": "^0.15.4",
-    "tsx": "^4.20.5"
+    "tsdown": "^0.15.5",
+    "tsx": "^4.20.6"
   },
   "engines": {
-    "node": ">=22.19.0"
+    "node": ">=22.20.0"
   },
   "pnpm": {
     "overrides": {
